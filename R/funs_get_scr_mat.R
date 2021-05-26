@@ -22,7 +22,7 @@ s_selection <- function(expr1,expr2,ss=seq(0.1,2,0.1),verbose=F){
 
 # estimate the different between precision matrixes
 get_diff_W <- function(expr1,expr2,s=2,tri=F){
-  
+  print("using fixed get_diff_W")
   n1 <- dim(expr1)[1]
   n2 <- dim(expr2)[1]
   p <- dim(expr1)[2]
